@@ -1,8 +1,9 @@
 #include "Student.h"
 using namespace std;
 
-Student::Student(string name) {
+Student::Student(string name, string id) {
     this->name = name;
+    this->id = id;
     score = 0;
 }
 
